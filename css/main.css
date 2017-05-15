@@ -1,1 +1,108 @@
-/* Agrega aquí tus estilos*/
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+	background-image: url(../img/forest.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #445963;
+}
+
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+	color: #445963;	
+	font-size: 90px;
+	text-align: left;
+	margin: 70px;
+	text-shadow: #797D7F;
+}
+
+h2{
+	font-family: 'Permanent Marker', cursive;
+	color: #AFBDC4;	
+	font-size: 28px;
+	text-align: left;
+	margin: 70px;
+}
+h3{
+	font-family: 'Permanent Marker', cursive;
+	color: #FFCB7F;	
+	font-size: 28px;
+	text-align: left;
+	margin: 70px;
+}
+p  {
+	font-family: 'Roboto', sans-serif;
+	color: #565656;	
+	font-size: 21px;
+	text-align: left;
+	margin: 70px;
+}
+.summary{
+	font-family: 'Roboto', cursive;
+	color: #FFFFFF;	
+	font-size: 14px;
+	text-align: left;
+	margin: 70px;
+	padding-bottom: 50px;
+}
+
+.preamble,
+.participation{
+	font-size: 12;
+	padding-top: 20px;
+	padding-right: 90px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+	margin: 150px;
+	background:#000000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	text-align: center;
+}
+.explanation,
+.benefits,
+.requirements,
+.sidebar {
+	font-size: 12;
+	padding-top: 20px;
+	padding-right: 90px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+	margin: 150px;
+	background:#FFFFFF;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	text-align: center;
+}
+
+a {
+	color: #ADD480;
+}
+
+footer{
+	text-align: center;
+	font-size: 10px;
+	color: #F1C40F
+}
+
+li {
+	color: #AFBDC4;	
+}
+
+#design-selection,
+#zen-resources{
+	width: 50%;	
+	float: left;
+	display: block;
+}
+
+#design-archives{
+	width: 50%;				
+	float: left;
+	display: block;	
+}
